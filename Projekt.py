@@ -170,6 +170,7 @@ def KettősVonaldiagramÉsLinRegresszió(fájl1, fájl2):
     except Exception as e7: print(f"e7: {e7}")
 
     # Most jön a scikit-learn használata lineáris regresszió számításokhoz
+    # https://realpython.com/linear-regression-in-python/#simple-linear-regression-with-scikit-learn kódhoz forrás
 
     try:
 
