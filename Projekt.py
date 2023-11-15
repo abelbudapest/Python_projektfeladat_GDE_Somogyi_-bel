@@ -258,12 +258,13 @@ def tkinterAblak(listOfTuples):
         position = f'1.0'
         for dt in listOfTuples:
              text.insert(position, dt)
-             text.insert(position,"                  ")
+             text.insert(position,"              ")
         text.insert(position,f'Település        Index       Lakásállomány')
 
         root.mainloop()
 
 
-
 # A funkció hívása:
 KettősVonaldiagramÉsLinRegresszió('Lakásállomány ezer lakosra_2020_telepules.csv', 'Egy lakosra jutó éves vízfogyasztás_2020.csv')
+
+
