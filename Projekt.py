@@ -183,7 +183,7 @@ def KettősVonaldiagramÉsLinRegresszió(fájl1, fájl2):
         print(f"Intercept: {model.intercept_}")
         print(f"Meredekség: {model.coef_}")
 
-        mennyiLekerdezes=int(input("""Most lekérdezheted települések vízfogysztását a lakésszám adatsor
+        mennyiLekerdezes=int(input("""Most lekérdezheted települések vízfogyasztását a lakásszám adatsor
                                    alapján. Mennyi lekérdezés legyen? """))
         for  lek in range(mennyiLekerdezes):
             # itt feljön egy ablak, amelyből könnyen ki lehet egy településre vonatkozó lakás adatot választani,
